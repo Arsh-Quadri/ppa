@@ -135,7 +135,7 @@ export default function MiddlePart({ darkMode }) {
             className="w-[80%] md:w-[30vw] min-w-[250px] object-cover"
           />
         </div>
-        <div className="w-full md:w-[50%] text-center md:text-start flex flex-col justify-center items-center md:items-start gap-5">
+        <div className="w-full md:w-[50%] text-center md:text-start flex flex-col justify-center items-center md:items-start gap-5 md:my-10">
           <h1
             className={`text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold ${
               darkMode ? "text-gray-200" : "text-[#1e272c]"

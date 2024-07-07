@@ -119,7 +119,7 @@ export default function TopPart({ darkMode }) {
             className="w-full md:w-[35vw] max-h-[80vh] object-cover"
           />
         </div>
-        <div className="w-full md:w-[50%] flex flex-col justify-center items-center md:items-start text-center md:text-start gap-5 py-5">
+        <div className="w-full md:w-[50%] flex flex-col justify-center items-center md:items-start text-center md:text-start gap-5 py-5 md:py-10">
           <h1
             className={`text-xl sm:text-2xl md:text-3xl xl:text-4xl font-bold ${
               darkMode ? "text-gray-200" : "text-[#1e272c]"

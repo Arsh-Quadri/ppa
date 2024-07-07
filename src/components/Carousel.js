@@ -53,6 +53,8 @@ const Carousel = ({ slides, darkMode }) => {
                 src={slide.image}
                 alt={`Slide ${index}`}
                 className="w-[100%] object-cover"
+                priority
+                quality={75}
               />
             </div>
           </div>

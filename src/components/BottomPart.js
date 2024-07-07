@@ -26,7 +26,7 @@ export default function BottomPart({ darkMode }) {
           read about how our community are increasing their membership income
           and lot's more.
         </p>
-        <div className="w-full flex flex-wrap justify-center items-center my-10 gap-10">
+        <div className="w-full flex flex-wrap justify-center items-center my-10 md:mb-20 gap-10">
           <div className="card flex relative flex-col justify-center items-center mb-10">
             <Image
               src={cardImage1}
