@@ -17,7 +17,7 @@ const Carousel = ({ slides, darkMode }) => {
 
   return (
     <div
-      className={`relative w-full h-[90vh] mt-[11vh] sm:h-[60vh] md:h-[80vh] lg:h-[90vh] ${
+      className={`relative w-full h-[90vh] mt-[5vh] lg:mt-[11vh] sm:h-[60vh] md:h-[80vh] lg:h-[90vh] ${
         darkMode ? "bg-gray-600" : "bg-[#F5F7FA]"
       } overflow-hidden `}
     >
