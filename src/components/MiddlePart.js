@@ -208,13 +208,17 @@ export default function MiddlePart({ darkMode }) {
               <Image
                 src={c1}
                 alt="company logo"
-                className="w-[4vw] min-w-[40px]"
+                className={`w-[4vw] min-w-[40px] ${
+                  darkMode && "filter invert"
+                }`}
                 flex-wrap
               />
               <Image
                 src={c2}
                 alt="company logo"
-                className="w-[4vw] min-w-[40px]"
+                className={`w-[4vw] min-w-[40px] ${
+                  darkMode && "filter invert"
+                }`}
                 flex-wrap
               />
               <Image
@@ -226,19 +230,25 @@ export default function MiddlePart({ darkMode }) {
               <Image
                 src={c4}
                 alt="company logo"
-                className="w-[4vw] min-w-[40px]"
+                className={`w-[4vw] min-w-[40px] ${
+                  darkMode && "filter invert"
+                }`}
                 flex-wrap
               />
               <Image
                 src={c5}
                 alt="company logo"
-                className="w-[4vw] min-w-[40px]"
+                className={`w-[4vw] min-w-[40px] ${
+                  darkMode && "filter invert"
+                }`}
                 flex-wrap
               />
               <Image
                 src={c6}
                 alt="company logo"
-                className="w-[4vw] min-w-[40px]"
+                className={`w-[4vw] min-w-[40px] ${
+                  darkMode && "filter invert"
+                }`}
               />
               <button
                 className="lg:flex gap-2 justify-center items-center text-xl font-medium cursor-pointer text-[#49A74B] hidden"
