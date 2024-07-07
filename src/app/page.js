@@ -37,7 +37,11 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={`w-full font-sans ${darkMode && "bg-[#263238]"}`}>
+    <div
+      className={`w-full font-sans ${
+        darkMode && "bg-[#263238]"
+      } prevent-select`}
+    >
       <Header darkMode={darkMode} setDarkMode={setDarkMode} />
       <main
         className={`flex min-h-screen flex-col items-center ${

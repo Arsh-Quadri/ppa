@@ -15,9 +15,9 @@ export default function Header({ darkMode, setDarkMode }) {
   };
   return (
     <header
-      className={`w-full flex min-h-[11vh] fixed top-0 z-50 justify-between ${
+      className={`w-full flex min-h-[55px] fixed top-0 z-50 justify-between ${
         darkMode ? "bg-[#263238]" : "bg-white"
-      } items-center py-3 px-8`}
+      } items-center py-3 px-4 sm:px-8`}
     >
       <nav className="w-full flex justify-between items-center max-w-[1086px] m-auto">
         <div className="logo cursor-pointer pb-1">
@@ -105,7 +105,7 @@ export default function Header({ darkMode, setDarkMode }) {
                 src={cross}
                 width={20}
                 alt="cross"
-                className={`cursor-pointer mx-[5px] ${
+                className={`cursor-pointer m-[5px] ${
                   darkMode && "filter invert"
                 } `}
               />

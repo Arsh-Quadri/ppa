@@ -51,7 +51,7 @@ const Carousel = ({ slides, darkMode }) => {
                 {slide.textBtn}
               </button>
             </div>
-            <div className="flex flex-col justify-center items-center w-[75%] sm:w-[35%]">
+            <div className="flex flex-col justify-center items-center w-[70%] sm:w-[35%]">
               <Image
                 src={slide.image}
                 alt={`Slide ${index}`}
