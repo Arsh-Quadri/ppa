@@ -21,10 +21,10 @@ export default function TopPart({ darkMode }) {
       >
         Our Clients
       </h1>
-      <p className="text-sm sm:text-base md:text-xl font-medium text-[#89939E] mt-3">
+      <p className="text-sm sm:text-base md:text-xl text-center font-medium text-[#89939E] mt-3">
         We have been working with some Fortune 500+ clients
       </p>
-      <div className="w-full flex flex-wrap md:flex-nowrap justify-between items-center mt-10 mb-5 felxw gap-5 sm:gap-[35px] md:gap-[55px] lg:gap-[75px] xl:gap-[85px]">
+      <div className="w-full flex flex-wrap md:flex-nowrap justify-center md:justify-between items-center mt-10 mb-5 felxw gap-5 sm:gap-[35px] md:gap-[55px] lg:gap-[75px] xl:gap-[85px]">
         <Image src={c1} alt="company logo" className="w-[6vw] min-w-[50px]" />
         <Image src={c2} alt="company logo" className="w-[6vw] min-w-[50px]" />
         <Image src={c3} alt="company logo" className="w-[6vw] min-w-[50px]" />

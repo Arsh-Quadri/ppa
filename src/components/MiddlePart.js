@@ -176,9 +176,9 @@ export default function MiddlePart({ darkMode }) {
               className="w-[70%] md:w-[30vw] object-cover"
             />
           </div>
-          <div className="w-[80%] md:w-[70%] flex flex-col justify-center items-start gap-3">
+          <div className="w-[80%] md:w-[70%] flex flex-col justify-center items-center md:items-start gap-3">
             <p
-              className={`font-medium ${
+              className={`font-medium text-center md:text-start ${
                 darkMode ? "text-gray-300" : "text-[#89939E]"
               } text-sm lg:text-base`}
             >
@@ -198,13 +198,13 @@ export default function MiddlePart({ darkMode }) {
               Tim Smith
             </div>
             <p
-              className={`text-sm lg:text-base font-medium ${
+              className={`text-sm lg:text-base font-medium text-center md:text-start ${
                 darkMode ? "text-gray-300" : "text-[#89939E]"
               } `}
             >
               British Dragon Boat Racing Association
             </p>
-            <div className="flex flex-wrap justify-between items-center gap-8">
+            <div className="flex flex-wrap justify-center md:justify-between items-center gap-8">
               <Image
                 src={c1}
                 alt="company logo"

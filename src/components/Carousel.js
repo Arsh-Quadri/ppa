@@ -30,7 +30,7 @@ const Carousel = ({ slides, darkMode }) => {
             key={index}
             className="w-full flex-shrink-0 flex flex-col-reverse gap-6 sm:gap-0 justify-center items-center sm:flex-row px-3 sm:px-10 md:px-20 lg:px-32 lg:pl-[10rem]"
           >
-            <div className="flex flex-col justify-center text-center sm:text-start items-center sm:items-start w-[65%]">
+            <div className="flex flex-col justify-center text-center sm:text-start items-center sm:items-start w-[90%] sm:w-[65%]">
               <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-bold text-[#1e272c]">
                 {slide.title1}
               </h1>
@@ -51,7 +51,7 @@ const Carousel = ({ slides, darkMode }) => {
                 {slide.textBtn}
               </button>
             </div>
-            <div className="flex flex-col justify-center items-center w-[60%] sm:w-[35%]">
+            <div className="flex flex-col justify-center items-center w-[75%] sm:w-[35%]">
               <Image
                 src={slide.image}
                 alt={`Slide ${index}`}
