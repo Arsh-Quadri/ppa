@@ -155,7 +155,10 @@ export default function MiddlePart({ darkMode }) {
             Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
             elementum pulvinar odio.
           </p>
-          <button className="bg-[#49A74B] hover:bg-[#3f9240] text-white text-sm sm:text-base px-5 py-2 rounded">
+          <button
+            className="bg-[#49A74B] hover:bg-[#3f9240] text-white text-sm sm:text-base px-5 py-2 rounded"
+            aria-label="learn more"
+          >
             Learn More
           </button>
         </div>
@@ -237,7 +240,10 @@ export default function MiddlePart({ darkMode }) {
                 alt="company logo"
                 className="w-[4vw] min-w-[40px]"
               />
-              <button className="lg:flex gap-2 justify-center items-center text-xl font-medium cursor-pointer text-[#49A74B] hidden">
+              <button
+                className="lg:flex gap-2 justify-center items-center text-xl font-medium cursor-pointer text-[#49A74B] hidden"
+                aria-label="meet customers"
+              >
                 Meet all customers
                 <Image src={right} alt="right" className="" />
               </button>

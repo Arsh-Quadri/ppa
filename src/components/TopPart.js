@@ -135,7 +135,10 @@ export default function TopPart({ darkMode }) {
             Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
             elementum pulvinar odio.
           </p>
-          <button className="bg-[#49A74B] hover:bg-[#3f9240] text-sm md:text-base text-white px-5 py-2 rounded">
+          <button
+            className="bg-[#49A74B] hover:bg-[#3f9240] text-sm md:text-base text-white px-5 py-2 rounded"
+            aria-label="learn more"
+          >
             Learn More
           </button>
         </div>

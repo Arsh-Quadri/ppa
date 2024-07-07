@@ -68,6 +68,7 @@ export default function Header({ darkMode, setDarkMode }) {
                   ? "bg-[#1F1F1F] border-white"
                   : "bg-white border-gray-800"
               } p-2 rounded-full  border-[0.01px]`}
+              aria-label="dark mode btn"
             >
               {darkMode ? (
                 <Image src={sun} alt="sun" className="w-5" />
@@ -76,10 +77,16 @@ export default function Header({ darkMode, setDarkMode }) {
               )}
             </button>
           </div>
-          <button className="btn text-[#49A74B] hover:text-[#237D31] font-medium font-sans hidden md:flex">
+          <button
+            className="btn text-[#49A74B] hover:text-[#237D31] font-medium font-sans hidden md:flex"
+            aria-label="login"
+          >
             Login
           </button>
-          <button className="btn bg-[#49A74B] hover:bg-[#237D31] px-3 py-1.5 text-sm lg:text-base rounded-md font-medium font-sans text-white hidden md:flex">
+          <button
+            className="btn bg-[#49A74B] hover:bg-[#237D31] px-3 py-1.5 text-sm lg:text-base rounded-md font-medium font-sans text-white hidden md:flex"
+            aria-label="sign up"
+          >
             Sign Up
           </button>
           <div

@@ -44,7 +44,10 @@ const Carousel = ({ slides, darkMode }) => {
               >
                 {slide.desc}
               </p>
-              <button className="btn bg-[#49A74B] hover:bg-[#237D31] text-sm sm:text-base px-5 py-2 mt-2 sm:mt-5 rounded-md text-white">
+              <button
+                className="btn bg-[#49A74B] hover:bg-[#237D31] text-sm sm:text-base px-5 py-2 mt-2 sm:mt-5 rounded-md text-white"
+                aria-label="card text btn"
+              >
                 {slide.textBtn}
               </button>
             </div>
@@ -68,6 +71,7 @@ const Carousel = ({ slides, darkMode }) => {
               currentSlide === index ? "bg-[#49A74B]" : "bg-gray-400"
             }`}
             onClick={() => setCurrentSlide(index)}
+            aria-label="card text btn"
           />
         ))}
       </div>

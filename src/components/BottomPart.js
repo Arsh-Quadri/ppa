@@ -45,7 +45,10 @@ export default function BottomPart({ darkMode }) {
               >
                 Creating Streamlined Safeguarding Processes with OneRen
               </p>
-              <button className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]">
+              <button
+                className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]"
+                aria-label="read more"
+              >
                 Read More
                 <Image src={right} alt="right" className="" />
               </button>
@@ -69,7 +72,10 @@ export default function BottomPart({ darkMode }) {
               >
                 What are your responsibilities and how can you manage them?
               </p>
-              <button className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]">
+              <button
+                className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]"
+                aria-label="read more"
+              >
                 Read More
                 <Image src={right} alt="right" className="" />
               </button>
@@ -93,7 +99,10 @@ export default function BottomPart({ darkMode }) {
               >
                 Revamping the Membership Model with Triathlon Australia
               </p>
-              <button className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]">
+              <button
+                className="text-sm md:text-base flex gap-2 justify-center items-center font-medium cursor-pointer text-[#49A74B]"
+                aria-label="read more"
+              >
                 Read More
                 <Image src={right} alt="right" className="" />
               </button>
@@ -110,7 +119,10 @@ export default function BottomPart({ darkMode }) {
           <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-[#1e272c] font-sans leading-10">
             Pellentesque suscipit fringilla libero eu.
           </h1>
-          <button className="btn flex justify-center items-center gap-2 bg-[#49A74B] hover:bg-[#237D31] px-4 py-2 rounded-md text-white text-sm sm:text-base">
+          <button
+            className="btn flex justify-center items-center gap-2 bg-[#49A74B] hover:bg-[#237D31] px-4 py-2 rounded-md text-white text-sm sm:text-base"
+            aria-label="get a demo"
+          >
             Get a Demo
             <Image src={wright} alt="right" className="w-4" />
           </button>
